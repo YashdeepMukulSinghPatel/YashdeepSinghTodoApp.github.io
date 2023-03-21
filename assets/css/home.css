@@ -1,0 +1,198 @@
+/* css design  */
+/* style for body */
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701850485.jpg");
+}
+/* style for single task div container */
+.singleTask{
+    border: 2px solid rgb(22, 213, 38);
+    background-color: rgb(227, 119, 225);
+    width: 50%;
+    height: 90px;
+    color: rgb(239, 245, 238);
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-evenly; */
+    position: relative;
+    left: 25%;
+}
+/* style for del check */
+.delechack{
+    margin: 15px;
+
+}
+/* style for category section */
+
+.catesec{
+    color:blue;
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    border: 2px solid rgb(59, 3, 244);
+}
+
+/* style for TODO heading */
+
+.todoheading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 2px solid rgb(236, 121, 26);
+    background-color: aqua;
+    border-radius: 10px;
+}
+#todoapp{
+    color:blue;
+    border:2px solid yellow;
+    text-align: center;
+    background:linear-gradient(rgb(215, 117, 18),white,rgb(13, 219, 55));
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 5px;
+    
+}
+#todoapp:hover{
+    color:rgb(16, 217, 60);
+}
+/* style for form */
+
+.form_class{
+    width: 50%;
+    text-align:center;
+    position: relative;
+    left: 24%;
+}
+/* style for description area */
+
+.desc_Class input{
+    height: 70px;
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.5s;
+    border-radius: 5px;
+    outline: none;
+}
+/* implemented some hover in description section */
+.desc_Class input:hover{
+    /* transform: scale(1.1); */
+    box-shadow: 0px 0px 5px 2px rgb(70, 209, 70) ;
+    background-color: rgb(100, 196, 225);
+}
+
+/* design for select and option START */
+/* style for select and options input input area */
+
+.select_and_input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.select_and_input select{
+    height: 45px;
+    width: 40%;
+    transition: transform 0.5s;
+    text-align: center;
+    margin-right: 50px;
+}
+.select_and_input input{
+    height: 45px;
+    width: 40%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.select_and_input select:hover{
+    box-shadow: 0px 0px 5px 2px rgb(37, 208, 63) ;
+    background-color: rgb(220, 126, 183);
+}
+.select_and_input input:hover{
+    box-shadow: 0px 0px 5px 2px rgb(52, 219, 43) ;
+    background-color: rgb(207, 109, 171);
+}
+/* design for select and option END */
+
+/* design for dates value */
+.datesValues{
+    transition: transform 0.3s;
+}
+.datesValues:hover{
+    box-shadow: 0px 0px 5px 2px rgb(83, 207, 89) ;
+    background-color: rgb(222, 154, 38);
+}
+/* design for button */
+.buttonDesign{
+    height: 50px;
+    width: 120px;
+    color: rgb(241, 235, 235);
+    transition: transform 0.3s;
+}
+.buttonDesign:hover{
+    box-shadow: 0px 0px 5px 2px rgb(103, 206, 83) ; 
+    transform:scale(1.1);
+}
+.colorRed{
+    background-color: red;
+    
+}
+
+.colorGrey{
+    background-color: rgb(43, 40, 40);
+}
+.commonClass{
+    height: auto;
+    width: auto;
+    text-align:center;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;    
+    color: white;
+    transition: transform 0.3s;
+}
+.commonClass:hover{
+    box-shadow: 0px 0px 5px 2px rgb(192, 231, 50) ; 
+    transform:scale(1.2);
+}
+
+/* for placing placeholder in the center  */
+input[type="textarea"]::placeholder { 
+                  
+    /* Firefox, Chrome, Opera */
+    text-align:center;
+}
+
+input.delechack{
+    width: 17px;
+    height: 17px;
+}
+
+/* Design for different category */
+.work{
+    background-color:rgb(232, 29, 205);
+        
+}
+.School{
+    background-color: rgb(209, 162, 6);
+}
+.Personal{
+    background-color: rgb(41, 169, 219);
+
+}
+.Claeaning{
+    background-color: green;
+}
+.Otheres{
+    background-color: teal;
+}
+.name_and_dueDate{
+    height: auto;
+    width: 600px;
+}
+.dueDate{
+    width:fit-content;
+}
+.color-white{
+    color: white;
+}
